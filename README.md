@@ -6,8 +6,8 @@
 [![License](https://img.shields.io/github/license/Ojash-Adhikari/LightCast)](https://github.com/Ojash-Adhikari/LightCast/blob/main/LICENSE)
 
 <p align="center">
-  <img src="https://github.com/Ojash-Adhikari/LightCast/assets/glass.png" alt="LightCast Demo" width="800"/>
-  <img src="https://github.com/Ojash-Adhikari/LightCast/assets/object.png" alt="LightCast Demo" width="800"/>
+  <img src="https://github.com/Ojash-Adhikari/LightCast/blob/main/assets/glass.png" alt="LightCast Demo" width="800"/>
+  <img src="https://github.com/Ojash-Adhikari/LightCast/blob/main/assets/object.png" alt="LightCast Demo" width="800"/>
 </p>
 
 ## Table of Contents

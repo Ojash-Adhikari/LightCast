@@ -1,89 +1,61 @@
-LIGHTCAST
-Illuminate Possibilities, Transform Light into Innovation
+# LightCast
 
-Built with: Markdown · C++
+**Illuminate Possibilities, Transform Light into Innovation**
 
-Table of Contents
+[![Built with](https://img.shields.io/badge/Built%20with-Markdown%20·%20C++-blue?style=flat&logo=c%2B%2B)](https://isocpp.org/)
+[![License](https://img.shields.io/github/license/Ojash-Adhikari/LightCast)](https://github.com/Ojash-Adhikari/LightCast/blob/main/LICENSE)
 
-Overview
+<p align="center">
+  <img src="https://github.com/Ojash-Adhikari/LightCast/assets/123456789/placeholder-image.png" alt="LightCast Demo" width="800"/>
+</p>
 
-Why-LightCast
+## Table of Contents
+- [Overview](#overview)
+- [Why LightCast?](#why-lightcast)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
-Getting Started
+## Overview
 
-Prerequisites
+**LightCast** is an advanced developer toolkit designed for creating **interactive optical simulations and visualizations**.  
+It enables precise modeling of light behavior — including **refraction**, **reflection**, and **transparent material interactions** — in dynamic, real-time scenes.
 
-Installation
+Perfect for developers, researchers, and educators building physics engines, educational tools, or visually stunning ray-tracing demos.
 
-Usage
+## Why LightCast?
 
-Testing
+LightCast empowers you to create **realistic optical visualizations** with ease and precision.
 
-Overview
+### ✨ Features
 
-LightCast is an advanced developer toolkit designed for creating interactive optical simulations and visualizations.
-It enables precise modeling of light behavior, including refraction, reflection, and transparent material interactions in dynamic scenes.
+| Feature                  | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| 🔬 **Scientific Accuracy**   | Implements Snell’s Law, ray tracing, and precise angle calculations         |
+| 🎨 **Interactive Control**   | Real-time scene manipulation via keyboard/mouse input                      |
+| 🚀 **Modular Architecture**  | Core components (`MoveBox`, `LightSource`, `Glass`) for easy customization |
+| 💡 **High Visual Fidelity**  | Accurate rendering of transparent materials and complex light paths        |
+| ⚙️ **Developer-Friendly**    | Seamless integration with custom graphics engines and simulation tools     |
 
-Why LightCast?
+## Getting Started
 
-This project empowers developers and educators to create realistic optical visualizations using:
+### Prerequisites
 
-✨ Features
+Make sure you have the following installed:
 
-🔬 Scientific Accuracy
-Implements Snell’s Law, ray tracing, and accurate angle calculations for realistic light refraction and reflection.
+- **C++ Compiler** (GCC, Clang, or MSVC) with C++17+ support
+- **CMake** ≥ 3.14
+- **Make** (or another compatible build system)
 
-🎨 Interactive Control
-Real-time scene manipulation through user input, enabling dynamic adjustments and experimentation.
+### Installation
 
-🚀 Modular Architecture
-Core components such as MoveBox, LightSource, and Glass allow flexible extension and customization.
-
-💡 High Visual Fidelity
-Accurate rendering of transparent materials and complex light paths.
-
-⚙️ Developer-Friendly
-Easy integration with custom graphics engines, simulation tools, and educational applications.
-
-Getting Started
-Prerequisites
-
-Ensure the following are installed:
-
-Programming Language: C++
-
-Build Tool: CMake
-
-Compiler: GCC/Clang compatible with C++ standard
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/Ojash-Adhikari/LightCast
-
-
-Navigate to the project:
-
+```bash
+git clone https://github.com/Ojash-Adhikari/LightCast.git
 cd LightCast
-
-
-Build using CMake:
-
-cmake . && make
-
-Usage
-
-Run LightCast after building:
-
-./LightCast
-
-Testing
-
-LightCast uses the {test_framework} test framework.
-
-Run tests with:
-
-ctest
-
-<p align="center"> ⬆️ <a href="#lightcast">Return to Top</a> </p>
+cmake -S . -B build
+cmake --build build
